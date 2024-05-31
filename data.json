@@ -1,38 +1,84 @@
 {
-    "user" : {
-        "fullName" : "",
-        "photo" : "",
-        "phone" : "",
-        "email" : ""
-    },
-    "education" : {
-        "institutionName" : "",
-        "photo" : "",
-        "description" : ""
-    },
-    "foreignLanguage" : {
-        "language" : "",
-        "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        },
-        {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        }]
-    },
-    "favouriteSubjects" : [
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        }
+  "header": {
+    "profilePic": "./msg.jpg",
+    "name": "Masego Motitswe",
+    "location": "Johannesburg, South Africa 1804",
+    "phone": "084 849 4001",
+    "email": "masegomotitswe32@gmail.com"
+  },
+  "profile": {
+    "title": "Professional Summary",
+    "description": "I am a hardworking and charismatic young woman with a passion for continuous learning and personal development. I am an adaptable information manager with extensive experience providing first-class results. I meet job demands and deadlines through diligent work ethic and dedication to quality. I always strive to achieve the highest standard possible, at any given task in any situation."
+  },
+  "experience": {
+    "title": "Work Experience",
+    "jobs": [
+      {
+        "title": "Volunteer Tutor",
+        "company": "Project Obduratus",
+        "dates": "January 2019 - Current",
+        "responsibilities": [
+          "Providing guidance, advice, feedback, and support to learners",
+          "Advising about health, lifestyle, and social issues in disadvantaged communities",
+          "Monitoring and enhancing performance by providing tuition, encouragement, and constructive feedback",
+          "Helping students learn and understand new concepts and complete assignments"
+        ]
+      },
+      {
+        "title": "Social Media Manager",
+        "company": "Khanyisa Institute",
+        "dates": "May 2023 - October 2023",
+        "responsibilities": [
+          "Monitor SEO and web traffic metrics",
+          "Stay up-to-date with current technologies and trends in social media, design tools, and applications",
+          "Communicate with followers, respond to queries in a timely manner, and monitor user reviews",
+          "Developed content and strategies for various social media platforms, including Instagram, Facebook, LinkedIn, Pinterest, and TikTok"
+        ]
+      },
+      {
+        "title": "Sales Representative",
+        "company": "Boss Activations",
+        "dates": "January 2019 - January 2021",
+        "responsibilities": [
+          "Demonstrate and provide information on promoted products",
+          "Achieve agreed upon sales targets and outcomes within schedule",
+          "Coordinate sales effort with team members and other departments",
+          "Establish, develop, and maintain positive business and customer relationships",
+          "Analyze the territory/market's potential, track sales and status reports"
+        ]
+      },
+      {
+        "title": "Research and Development Trainee",
+        "company": "Wits Targeting Talent Programme (SETMU)",
+        "dates": "June 2017 - July 2019",
+        "responsibilities": [
+          "Develop a database of operational research questions mainly pertaining to TTP in consultation with the team lead, technical leads, and national professional officers",
+          "Identify and suggest extra reading materials for the SETMU team",
+          "Facilitate and assist in obtaining necessary ethical approval for planned research studies",
+          "Plan and conduct quantitative and qualitative research data analysis with introduction for appropriate implementation for research team"
+        ]
+      }
     ]
+  },
+  "education": {
+    "title": "Education",
+    "schools": [
+      {
+        "degree": "BCom Information Management",
+        "institution": "University of Johannesburg",
+        "date": "March 2024"
+      },
+      {
+        "degree": "Matric",
+        "institution": "University of Johannesburg Metropolitan Academy",
+        "date": "December 2019"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "list": ["JavaScript", "HTML", "CSS"]
+  }
+
 }
+
